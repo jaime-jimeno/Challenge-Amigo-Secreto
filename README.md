@@ -8,7 +8,7 @@ En este desafío, desarrollé una aplicación que permite a los usuarios ingresa
 
 **Agregar nombres:**
 
-Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Añadir amigo".
+Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Añadir".
 
 **Validar entrada:**
 
@@ -19,6 +19,8 @@ Si la lista contine menos de 2 amigos mostrará una alerta.
 Si el nombre ha sido repetido mostrará una alerta.
 
 **Visualizar la lista:**
+
+Mensaje cuando la lista no tiene nombres.
 
 Los nombres ingresados aparecerán en una lista debajo del campo de entrada, respetando que cada nombre tenga su primera inicial mayuscula.
 
