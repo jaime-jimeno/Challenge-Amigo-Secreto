@@ -16,6 +16,8 @@ Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un 
 
 Si la lista contine menos de 2 amigos mostrará una alerta.
 
+Si el nombre ha sido repetido mostrará una alerta.
+
 **Visualizar la lista:**
 
 Los nombres ingresados aparecerán en una lista debajo del campo de entrada, respetando que cada nombre tenga su primera inicial mayuscula.
