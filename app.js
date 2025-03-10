@@ -54,7 +54,7 @@ function sortearAmigo(){
         return;
     }
 
-    document.getElementById('resultado').innerHTML = `Tu amigo sorteado es: ${amigoSorteado}.`;
+    document.getElementById('resultado').innerHTML = `Tu amigo sorteado es: ${amigoSorteado}`;
 
     //Borra la lista de amigos luego de realizar el sorteo
     document.querySelector('ul').innerHTML = '';
