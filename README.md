@@ -1,12 +1,14 @@
 # Challenge Amigo Secreto
 
-En este desafío, desarrollé una aplicación que permite a los usuarios ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
+En este desafío, desarrollé un sitio web que permite a los usuarios ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
 
 ## 🚀 Comenzando 
 
-## 🪄 Fucionalidades:
+## Estado del proyecto:
 
+🚧 En construcción.
 
+## 🪄 Funcionalidades activas:
 
 ➕ **Agregar nombres:**
 
@@ -29,6 +31,16 @@ Los nombres ingresados aparecerán en una lista debajo del campo de entrada. El 
 🎲 **Sorteo aleatorio:**
 
 Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página, borrando la lista anteriormente impresa.
+
+🦾 **Reinicio del juego**
+
+Al hacer click en el botón "Reiniciar", se reinicia el juego. 
+
+## 🔮 Futuras mejoras:
+
+- Bloquear botón 'Sortear Amigo" luego de presionarlo.
+  
+- Convertir el sitio en responsivo.
 
 ## 🛠️ Construido con:
 
