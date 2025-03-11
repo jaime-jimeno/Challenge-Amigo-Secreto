@@ -165,6 +165,12 @@ ul {
     justify-content: center;
 }
 
+.footer{
+    padding: 24px;
+    color:#4F959D;
+    text-align: center; 
+}
+
 .button-draw img {
     margin-right: 40px;
 }
