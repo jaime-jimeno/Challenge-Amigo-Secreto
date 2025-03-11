@@ -172,3 +172,32 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+@media (max-width:1000px){
+    .header-banner{
+        flex-direction: column;
+    }
+    .main-title{
+        text-align: center;
+    }
+    .input-wrapper {
+        flex-direction: column;
+    }
+    .input-name {
+        border-radius: 25px;
+        margin-top: 10px;
+    }
+    .input-title {
+        border-radius: 25px;
+        margin-top: 10px;
+    }
+    .button-add {
+        border-radius: 25px;
+    }
+    .button-draw {
+        padding: 10px 20px;
+    }
+    .button-reiniciar {
+        padding: 15px 20px;
+    }
+}

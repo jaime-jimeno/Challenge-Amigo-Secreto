@@ -36,11 +36,14 @@ Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un n
 
 Al hacer click en el botón "Reiniciar", se reinicia el juego. 
 
+**Responsividad**
+
+Permite visualizar en distintos dispositivos como computadoras, laptops, tablets y teléfonos móviles.
+
 ## 🔮 Futuras mejoras:
 
 - Bloquear botón 'Sortear Amigo" luego de presionarlo.
   
-- Convertir el sitio en responsivo.
 
 ## 🛠️ Construido con:
 
