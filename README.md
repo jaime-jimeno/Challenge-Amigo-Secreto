@@ -36,7 +36,7 @@ Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un n
 
 Al hacer click en el botón "Reiniciar", se reinicia el juego. 
 
-**Responsividad**
+📱 **Responsividad**
 
 Permite visualizar en distintos dispositivos como computadoras, laptops, tablets y teléfonos móviles.
 
