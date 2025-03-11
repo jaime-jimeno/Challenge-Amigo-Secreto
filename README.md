@@ -6,11 +6,13 @@ En este desafío, desarrollé una aplicación que permite a los usuarios ingresa
 
 ## 🪄 Fucionalidades:
 
-**Agregar nombres:**
 
-Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Añadir".
 
-**Validar entrada:**
+➕ **Agregar nombres:**
+
+Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Añadir" o al presionar la tecla 'Enter'.
+
+✅ **Validar entrada:**
 
 Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
 
@@ -18,20 +20,16 @@ Si la lista contine menos de 2 amigos mostrará una alerta.
 
 Si el nombre ha sido repetido mostrará una alerta.
 
-**Visualizar la lista:**
+👁️ **Visualizar la lista:**
 
-Mensaje cuando la lista no tiene nombres.
+Mantiene un mensaje en la pantalla cuando la lista no tiene nombres. Se borra luego del primer nombre ingresado.
 
-Los nombres ingresados aparecerán en una lista debajo del campo de entrada, respetando que cada nombre tenga su primera inicial mayuscula.
+Los nombres ingresados aparecerán en una lista debajo del campo de entrada. El programa modifica el nombre ingresado para que tenga su primera inicial mayuscula.
 
-**Sorteo aleatorio:**
+🎲 **Sorteo aleatorio:**
 
-Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página borrando la lista ya impresa.
+Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página, borrando la lista anteriormente impresa.
 
-**Clona el repositorio:**
-```bash
-git clone (https://github.com/jaime-jimeno/Challenge-Amigo-Secreto.git)
-```
 ## 🛠️ Construido con:
 
 - HTML5: 📜 Estructura básica de la página.
@@ -41,6 +39,11 @@ git clone (https://github.com/jaime-jimeno/Challenge-Amigo-Secreto.git)
 ## ✒️ Autor:
 
 **Jaime Jimeno** - ([https://github.com/jaime-jimeno)
+
+**Clona el repositorio:**
+```bash
+git clone (https://github.com/jaime-jimeno/Challenge-Amigo-Secreto.git)
+```
 
 
 
