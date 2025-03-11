@@ -6,7 +6,7 @@ function agregarAmigo(){
        let nombreConMayuscula = nombrePropio(nombre);
 
 // Si el campo esta en blanco, mensaje de alerta
-       if(nombre == false){
+       if(nombre == ''){
         alert('No has ingresado un nombre.');
         return;
         } 
@@ -69,8 +69,6 @@ function reiniciar(){
     document.getElementById('listaAmigos').innerHTML = '';
     limpiarCaja();
 }
-
-agregarAmigo();
 
 //Permitir que puedan agregar amigos con la tecla 'Enter'
 document.addEventListener("keypress", function(event) {
