@@ -58,7 +58,7 @@ function sortearAmigo(){
 
     //Borra la lista de amigos luego de realizar el sorteo
     document.querySelector('ul').innerHTML = '';
-
+    document.getElementById('botonSortear').disabled = true;
     console.log(amigoSorteado);
 
 }
@@ -66,7 +66,8 @@ function sortearAmigo(){
 function reiniciar(){
     listaNombres = [];
     document.getElementById('resultado').innerHTML = '';
-    document.getElementById('listaAmigos').innerHTML = '';
+    document.getElementById('listaAmigos').innerHTML = 'No hay amigos en la lista';
+    document.getElementById('botonSortear').disabled = false;
     limpiarCaja();
 }
 
@@ -83,5 +84,3 @@ function nombrePropio(str) {
     if (str.length === 0) return str;
     return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }
-
-

@@ -179,6 +179,10 @@ ul {
     background-color: var(--color-button-hover);
 }
 
+.button-reiniciar:hover {
+    background-color: var(--color-button-hover);
+}
+
 @media (max-width:1000px){
     .header-banner{
         flex-direction: column;
