@@ -62,6 +62,13 @@ function sortearAmigo(){
     console.log(amigoSorteado);
 
 }
+// Funcion para reiniciar el juego
+function reiniciar(){
+    listaNombres = [];
+    document.getElementById('resultado').innerHTML = '';
+    document.getElementById('listaAmigos').innerHTML = '';
+    limpiarCaja();
+}
 
 agregarAmigo();
 
